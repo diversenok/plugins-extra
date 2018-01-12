@@ -1,0 +1,3 @@
+ - Removal of dll injection feature: [commit](https://github.com/processhacker2/processhacker/commit/02b2c0afcb1117f6cbab0ba4280c074c65286fd5).
+ - [Forum thread](https://wj32.org/processhacker/forums/viewtopic.php?f=5&t=2859).
+ - Binaries can be obtained [here](https://github.com/diversenok/plugins-extra/releases/tag/Injector-1.0).

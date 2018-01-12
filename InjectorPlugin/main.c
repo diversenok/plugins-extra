@@ -39,7 +39,7 @@ VOID AddMenuItemsAndHook(
 
     if (MiscMenuItem = PhFindEMenuItem(MenuInfo->Menu, 0, L"Miscellaneous", 0))
     {
-        PhInsertEMenuItem(MiscMenuItem, PhPluginCreateEMenuItem(PluginInstance, 0, INJECTOR_MENU_ID, L"&Inject DLL...", NULL), 2);
+        PhInsertEMenuItem(MiscMenuItem, PhPluginCreateEMenuItem(PluginInstance, 0, INJECTOR_MENU_ID, L"&Inject DLL... (plugin)", NULL), 2);
     }
 
     PhPluginAddMenuHook(MenuInfo, PluginInstance, UseSelectionForHook ? NULL : ProcessItem->ProcessId);
